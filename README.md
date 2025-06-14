@@ -46,10 +46,3 @@ Access `http://127.0.0.1:5000/` in your browser. Select company or All, enter qu
   ```bash
   curl -X POST -H "Content-Type: application/json" -d '{"company":"Tesla","query":"Which company had the highest revenue in 2023?"}' http://127.0.0.1:5000/api/query
   ```
-
-## Packaging
-Zip the entire `financial_chatbot_project` folder for submission:
-```bash
-zip -r financial_chatbot_project.zip financial_chatbot_project/
-```
-
