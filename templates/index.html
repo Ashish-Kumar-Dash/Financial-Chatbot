@@ -1,0 +1,27 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Financial Chatbot</title>
+</head>
+<body>
+    <h1>Financial Chatbot</h1>
+    <form method="post">
+        <label for="company">Select Company:</label>
+        <select name="company" id="company">
+            <option value="Microsoft">Microsoft</option>
+            <option value="Tesla">Tesla</option>
+            <option value="Apple">Apple</option>
+            <option value="All">All (for comparative queries)</option>
+        </select><br><br>
+        <label for="query">Your Query:</label><br>
+        <input type="text" id="query" name="query" size="60" placeholder="e.g., What is the total revenue for Microsoft in 2024?"><br><br>
+        <button type="submit">Ask</button>
+    </form>
+    {% if response %}
+    <h2>Response:</h2>
+    <p>{{ response }}</p>
+    {% endif %}
+</body>
+</html>
