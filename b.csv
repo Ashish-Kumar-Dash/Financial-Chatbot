@@ -1,0 +1,10 @@
+Company,Fiscal Year,Total Revenue (B USD),Net Income (B USD),Total Assets (B USD),Total Liabilities (B USD),Operating Cash Flow (B USD)
+Microsoft,2024,211.9,72.7,411.8,183.7,87.6
+Microsoft,2023,198.3,72.5,364.8,161.1,79.4
+Microsoft,2022,168.1,61.3,333.8,153.7,76.7
+Tesla,2024,107.5,2.3,82.0,45.0,12.6
+Tesla,2023,81.5,12.6,82.0,29.0,16.1
+Tesla,2022,53.8,12.6,62.0,28.0,15.0
+Apple,2024,383.0,99.8,352.8,308.0,122.0
+Apple,2023,394.3,94.7,351.0,264.4,104.0
+Apple,2022,394.3,99.8,,,104.0
