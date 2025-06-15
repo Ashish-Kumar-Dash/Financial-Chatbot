@@ -6,7 +6,7 @@ import re
 app = Flask(__name__)
 
 # Load financial data
-df = pd.read_excel('b.xlsx')
+df = pd.read_excel('b.csv')
 
 def simple_chatbot_query(company, user_query):
     q = user_query.lower()
